@@ -8,7 +8,7 @@ export const SideBar = () => {
         <>
             <button className="toggle-btn" id="toggle-btn">&#9776;</button>
             <ul className="sidebar-menu">
-                <li><NavLink to='/home'>Home</NavLink></li>
+                <li><NavLink to='/'>Home</NavLink></li>
                 <li><NavLink to='/about'>About</NavLink></li>
                 <li><NavLink to='/contact'>Contact</NavLink></li>
                 <li><NavLink to='/careers/1'>Careers</NavLink></li>
