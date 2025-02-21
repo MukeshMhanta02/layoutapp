@@ -1,17 +1,17 @@
 import React from 'react';
 import { Header } from './../Components/Header';
-import { SideBar } from './../Components/SideBar';
 import { Footer } from './../Components/Footer';
 import { Outlet } from 'react-router-dom';
+import { Nav } from './Nav';
+import { Main } from './Main';
 
 export const Layout = () => {
     return (
-        <>
-            <div>Layout</div>
+        <section id="mainContainer" class="grid-container">
             <Header />
-            <SideBar />
+            <Nav />
+            <Main />
             <Footer />
-            <Outlet />
-        </>
+        </section>
     )
 }
